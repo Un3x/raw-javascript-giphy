@@ -20,6 +20,7 @@
   }
 
   function displayGifs(gifs) {
+      console.log('tarte');
     gifs.forEach(function(gif) {
       var li = $('<li class="list-inline-item"></li>');
       var img = $('<img src="' + gif.images.original.url + '" >');
